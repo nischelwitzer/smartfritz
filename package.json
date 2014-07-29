@@ -1,7 +1,7 @@
 {
   "name": "smartfritz",
-  "version": "0.1.0",
-  "description": "Node to communicate with a AVM FritzBox over avm aha-http-interface",
+  "version": "0.1.7",
+  "description": "SmartHome for Fritz!Box and Dect!200 Node to communicate with AVM FritzBox over the aha-http-interface",
   "author": {
     "name": "nischi",
     "url": "http://www.nischi.at"
@@ -13,14 +13,18 @@
       "email": "s.timm@nischi.net"
     },
 	{
-      "name": "nischi.net",
-      "url": "http://www.nischi.net"
+      "name": "nischi.at",
+      "url": "http://www.nischelwitzer.at"
     }
   ],
   "main": "./lib/smartfritz.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nischi/smartfritz"
+    "url": "https://github.com/nischelwitzer/smartfritz"
+  },
+  "dependencies": {
+    "http": "*",
+    "querystring": ">=0.2.0"
   },
   "keywords": [
     "FritzBox",
@@ -32,7 +36,7 @@
   "readme": "",
   "readmeFilename": "README.md",
   "bugs": {
-    "url": "https://github.com/nischi/smartfritz/issues"
+    "url": "https://github.com/nischelwitzer/smartfritz/issues"
   },
-  "homepage": "https://github.com/nischi/smartfritz"
+  "homepage": "https://github.com/nischelwitzer/smartfritz"
 }

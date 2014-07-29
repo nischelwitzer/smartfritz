@@ -36,7 +36,8 @@ Switches AIDs: 087610087001,087510717012,087610101971
 
 ## How to use
 
-Get the session ID:
+Get the session ID default:
+as URL "fritz.box" is used as default paramter
 ```js
 var fritz = require('smartfritz');
 
@@ -45,6 +46,17 @@ fritz.getSessionID("user", "password", function(sid){
 });
 ```
 
+
+Get the session ID with own URL:
+use your Fritz!Box IP when "fritz.box" is not working.
+```js
+var fritz = require('smartfritz');
+
+var moreParam = { url:"192.168.178.1" };
+fritz.getSessionID("user", "password", function(sid){
+    console.log(sid);
+}, moreParam);
+```
 
 Get the Switch AID List:
 ```js

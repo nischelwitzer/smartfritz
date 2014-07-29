@@ -9,6 +9,7 @@ Node module to communicate with a AVM FritzBox and FRITZ!DECT 200 (smart home ha
 - Get the switch (FRITZ!DECT 200) Power (getSwitchPower)
 - Get the switch (FRITZ!DECT 200) Energy (getSwitchEnergy)
 - Get the switch (FRITZ!DECT 200) List (getSwitchList)
+- Get the DeviceListInfos (FRITZ!DECT 200) as XML (getDeviceListInfos) >FritzOS 6.10
 - Get the phone list (getPhoneList)
 - Set the guest wlan (setGuestWLan)
 - Get the guest wlan settings (getGuestWLan)

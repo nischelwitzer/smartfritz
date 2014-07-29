@@ -23,6 +23,16 @@ For AVM FRITZ!DECT 200  control you need to know your Actuator identification nu
 npm install smartfritz
 ```
 
+## Testing the Examples
+
+```bash
+node fritz02_devicelistinfos.js
+
+Output similar to:
+Fritz!Session ID: 171775fcb855bc17
+Switches AIDs: 087610087001,087510717012,087610101971
+```
+
 ## How to use
 
 Get the session ID:
@@ -118,8 +128,8 @@ http://avm.de/fileadmin/user_upload/Global/Service/Schnittstellen/AHA-HTTP-Inter
 
 ## Thanks to and based on Code from:
 
-steffen.timm for the basic communication function
-thk4711 for the FRITZ!DECT 200
-AVM for providing the good AHA-HTTP-Interface document 
+* steffen.timm for the basic communication function
+* thk4711 for the FRITZ!DECT 200
+* AVM for providing the good AHA-HTTP-Interface document 
 
 

@@ -1,0 +1,34 @@
+{
+  "name": "smartfritz",
+  "version": "0.1.0",
+  "description": "Node to communicate with a AVM FritzBox over avm aha-http-interface",
+  "author": {
+    "name": "nischi",
+    "url": "http://www.nischi.at"
+  },
+  "contributors": [
+    {
+      "name": "Steffen Timm",
+      "email": "s.timm@nischi.net"
+    },
+	{
+      "name": "nischi.net",
+      "url": "http://www.nischi.net"
+    }
+  ],
+  "main": "./lib/smartfritz.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nischi/smartfritz"
+  },
+  "readme": "",
+  "readmeFilename": "README.md",
+  "bugs": {
+    "url": "https://github.com/nischi/smartfritz/issues"
+  },
+  "homepage": "https://github.com/nischi/smartfritz",
+  "_id": "smartfritz@0.1.0",
+  "_shasum": "3c5b19d3c98205b05c44682f76ee987f5cbda2c8",
+  "_from": "smartfritz@",
+  "_resolved": "https://registry.npmjs.org/smartfritz/-/smartfritz-0.1.0.tgz"
+}

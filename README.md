@@ -126,10 +126,10 @@ https://fritz.box/webservices/homeautoswitch.lua?ain=<ain>&switchcmd=<cmd>&sid=<
 AHA-HTTP-Interface document 
 http://avm.de/fileadmin/user_upload/Global/Service/Schnittstellen/AHA-HTTP-Interface.pdf
 
-## Thanks to and based on Code from:
+## Thanks to // Code base from:
 
 * steffen.timm for the basic communication function
-* thk4711 for the FRITZ!DECT 200
+* thk4711 for the FRITZ!DECT 200 codes 
 * AVM for providing the good AHA-HTTP-Interface document 
 
 
